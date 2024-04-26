@@ -1,0 +1,9 @@
+{
+  "name": "holidays-data",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/holidays/data/src",
+  "prefix": "app",
+  "tags": ["domain:holidays", "type:data"],
+  "projectType": "library",
+  "targets": {}
+}

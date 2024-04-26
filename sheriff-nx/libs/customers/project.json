@@ -1,0 +1,9 @@
+{
+  "name": "customers",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/customers/src",
+  "prefix": "full-nx",
+  "tags": [],
+  "projectType": "library",
+  "targets": {}
+}

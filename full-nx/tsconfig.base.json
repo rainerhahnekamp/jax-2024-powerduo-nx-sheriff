@@ -1,0 +1,47 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@app/customers/api": ["libs/customers/api/src/index.ts"],
+      "@app/customers/data": ["libs/customers/data/src/index.ts"],
+      "@app/customers/feat-main": ["libs/customers/feat-main/src/index.ts"],
+      "@app/customers/model": ["libs/customers/model/src/index.ts"],
+      "@app/customers/ui": ["libs/customers/ui/src/index.ts"],
+      "@app/holidays/api": ["libs/holidays/api/src/index.ts"],
+      "@app/holidays/data": ["libs/holidays/data/src/index.ts"],
+      "@app/holidays/feat-brochure": [
+        "libs/holidays/feat-brochure/src/index.ts"
+      ],
+      "@app/holidays/feat-overview": [
+        "libs/holidays/feat-overview/src/index.ts"
+      ],
+      "@app/holidays/feat-quiz": ["libs/holidays/feat-quiz/src/index.ts"],
+      "@app/holidays/model": ["libs/holidays/model/src/index.ts"],
+      "@app/holidays/ui": ["libs/holidays/ui/src/index.ts"],
+      "@app/shared/config": ["libs/shared/config/src/index.ts"],
+      "@app/shared/form": ["libs/shared/form/src/index.ts"],
+      "@app/shared/http": ["libs/shared/http/src/index.ts"],
+      "@app/shared/master-data": ["libs/shared/master-data/src/index.ts"],
+      "@app/shared/ngrx-utils": ["libs/shared/ngrx-utils/src/index.ts"],
+      "@app/shared/security": ["libs/shared/security/src/index.ts"],
+      "@app/shared/testing": ["libs/shared/testing/src/index.ts"],
+      "@app/shared/ui": ["libs/shared/ui/src/index.ts"],
+      "@app/shared/ui-messaging": ["libs/shared/ui-messaging/src/index.ts"],
+      "@app/shared/util": ["libs/shared/util/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "customers-feat-main",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/customers/feat-main/src",
+  "prefix": "app",
+  "tags": ["domain:customers", "type:feature"],
+  "projectType": "library",
+  "targets": {}
+}

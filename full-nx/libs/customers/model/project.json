@@ -1,0 +1,9 @@
+{
+  "name": "customers-model",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/customers/model/src",
+  "prefix": "app",
+  "tags": ["domain:customers", "type:model"],
+  "projectType": "library",
+  "targets": {}
+}

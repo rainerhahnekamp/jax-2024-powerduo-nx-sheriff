@@ -1,0 +1,9 @@
+{
+  "name": "customers-api",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/customers/api/src",
+  "prefix": "app",
+  "tags": ["domain:customers", "type:api"],
+  "projectType": "library",
+  "targets": {}
+}

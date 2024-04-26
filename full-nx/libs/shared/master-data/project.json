@@ -1,0 +1,9 @@
+{
+  "name": "shared-master-data",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared/master-data/src",
+  "prefix": "app",
+  "tags": ["shared"],
+  "projectType": "library",
+  "targets": {}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "holidays-feat-brochure",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/holidays/feat-brochure/src",
+  "prefix": "app",
+  "tags": ["domain:holidays", "type:feature"],
+  "projectType": "library",
+  "targets": {}
+}

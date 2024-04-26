@@ -1,0 +1,9 @@
+{
+  "name": "holidays-ui",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/holidays/ui/src",
+  "prefix": "app",
+  "tags": ["domain:holidays", "type:ui"],
+  "projectType": "library",
+  "targets": {}
+}

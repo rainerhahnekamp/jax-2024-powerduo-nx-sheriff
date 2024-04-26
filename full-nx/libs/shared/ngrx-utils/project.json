@@ -1,0 +1,9 @@
+{
+  "name": "shared-ngrx-utils",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared/ngrx-utils/src",
+  "prefix": "app",
+  "tags": ["shared"],
+  "projectType": "library",
+  "targets": {}
+}
